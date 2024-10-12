@@ -1,21 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import ClassCounter from './components/ClassCounter';
-import HookCounter from './components/HookCounter';
-import HookCounterTwo from './components/HookCounterTwo';
-import ClassCounterTwo from './components/ClassCounterTwo';
-import HookCounterThree from './components/HookCounterThree';
-import HookCounterFour from './components/HookCounterFour';
+import ClassCounter from './components/useState/ClassCounter';
+import HookCounter from './components/useState/HookCounter';
+import HookCounterTwo from './components/useState/HookCounterTwo';
+import ClassCounterTwo from './components/useState/ClassCounterTwo';
+import HookCounterThree from './components/useState/HookCounterThree';
+import HookCounterFour from './components/useState/HookCounterFour';
+import HookCounterOne from './components/useEffect/HookCounterOne';
+import ClassCounterOne from './components/useEffect/ClassCounterOne';
 
 function App() {
   return (
     <div className="App">
-      <ClassCounter />
+      <HookCounterOne />
+      <ClassCounterOne />
+      {/* <ClassCounter />
       <HookCounter />
       <HookCounterTwo />
       <ClassCounterTwo />
       <HookCounterThree />
-      <HookCounterFour />
+      <HookCounterFour /> */}
     </div>
   );
 }
